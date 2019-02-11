@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gbr2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Menu Utama"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#2fbb28"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+     <TableRow
+         android:id="@+id/tableRow5"
+         android:layout_width="30dp"
+         android:layout_height="80dp" >
+     </TableRow>
+
+     <TableRow
+         android:id="@+id/tableRow1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <Button
+             android:id="@+id/button2"
+             android:layout_width="105dp"
+             android:layout_height="wrap_content"
+             android:onClick="menubelajar"
+             android:text="Belajar"
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:typeface="serif" />
+
+         <Button
+             android:id="@+id/btntentang"
+             android:layout_width="105dp"
+             android:layout_height="wrap_content"
+             android:onClick="tentang"
+             android:text="Tentang"
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:typeface="serif" />
+
+         <Button
+             android:id="@+id/button2"
+             android:layout_width="110dp"
+             android:layout_height="wrap_content"
+             android:onClick="bermain"
+             android:text="Bermain"
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:typeface="serif" />
+
+     </TableRow>
+
+    <Button
+        android:id="@+id/btntentangaplikasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tentangaplikasi"
+        android:text="Tentang Penjelasan Isi Aplikasi"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="keluar"
+        android:text="Keluar"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+</LinearLayout>

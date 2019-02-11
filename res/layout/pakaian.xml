@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background ="@drawable/gbr4"
+    android:orientation="vertical" >
+
+    <TextView
+  		 android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="PAKAIAN ADAT"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic" android:typeface="serif"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="500dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pakaianadattradisionalulosberasaldarisumatrautara" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#d52a42"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold|italic" 
+        android:typeface="serif"
+        android:text="Keterangan :" 
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#d52a42"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold|italic" 
+        android:typeface="serif"
+     	android:text= "Pakaian Adat Tradisional Ulos, Berasal Dari Sumatera Utara" />
+    
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" >
+
+        <Button
+        	android:id="@+id/btnsebelumnya"
+            android:layout_width="100dp"
+            android:drawableTop="@drawable/c"
+            android:layout_height="wrap_content"
+            android:onClick="kembalipakaian"
+            android:text="Sebelumnya" />
+
+        <Button
+            android:id="@+id/btnselanjutnya"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/b"
+            android:onClick="lanjutpakaian"
+            android:text="Selanjutnya" />
+
+        <Button
+            android:id="@+id/button3"
+            android:onClick="kembali"
+            android:layout_width="120dp"
+            android:drawableTop="@drawable/a"
+            android:layout_height="wrap_content"
+            android:text="Menu Belajar" />
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/gbr8"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textColor="#26157b"
+         android:layout_gravity="center"
+          android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:onClick="rumahadat"
+        android:text="Rumah Adat"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:typeface="serif"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textColor="#26157b"
+         android:layout_gravity="center"
+        android:textStyle="bold"
+        android:onClick="tarian"
+        android:text="Tarian Tradisional" 
+        android:textAppearance="?android:attr/textAppearanceLarge" android:typeface="serif"/>
+    <Button
+       android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textColor="#26157b"
+         android:layout_gravity="center"
+        android:textStyle="bold"
+        android:onClick="alatmusik"
+        android:text="Alat Musik Tradisional" 
+        android:textAppearance="?android:attr/textAppearanceLarge" android:typeface="serif"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textColor="#26157b"
+         android:layout_gravity="center"
+        android:textStyle="bold"
+        android:onClick="pakaian"
+        android:text="Pakaian Adat" 
+        android:textAppearance="?android:attr/textAppearanceLarge" android:typeface="serif"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textColor="#26157b"
+         android:layout_gravity="center"
+        android:textStyle="bold"
+        android:onClick="senjata"
+        android:text="Senjata Tradisional" 
+         android:textAppearance="?android:attr/textAppearanceLarge" android:typeface="serif"/>
+    <Button
+         android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textColor="#26157b"
+         android:layout_gravity="center"
+        android:textStyle="bold"
+        android:onClick="kembali"
+        android:text="Kembali" 
+        android:textAppearance="?android:attr/textAppearanceLarge" android:typeface="serif"/>
+
+
+</LinearLayout>

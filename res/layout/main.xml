@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#03a9f4"
+    android:orientation="vertical" >
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Aplikasi Pembelajaran Seni dan Budaya Indonesia"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:typeface="sans"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Masriah"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:text="2014020581"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+		android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="STMIK TRIGUNA DHARMA MEDAN"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+      	android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="T.A.2016-2017"
+        android:textStyle="bold"
+        android:typeface="sans"
+       	android:textAppearance="?android:attr/textAppearanceMedium" />
+    	
+</LinearLayout>

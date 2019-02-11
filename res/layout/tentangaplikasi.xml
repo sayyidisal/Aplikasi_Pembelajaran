@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background ="@drawable/bunga4"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Rincian Tentang Aplikasi" 
+        android:textAppearance="?android:attr/textAppearanceLarge" android:typeface="serif"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+         android:textColor="#ffffff"
+        android:text="Aplikasi Pembelajaran ini dibuat guna dapat menambah wawasan  dalam memperkenalkan beberapa kebudayaan yang ada di Indonesia, 
+        karena  Negara Indonesia Memiliki Ratusan ribu kebudayaan yang luas di Indonesia, dan kekayaanya Alamnya.
+        Maka dari itu adapun yang ada di aplikasi ini antara lain :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+         android:textColor="#ffffff"
+        android:text="1). Rumah Adat"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+       android:id="@+id/TextView04"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+         android:textColor="#ffffff"
+        android:text="2). Tarian Tradisional"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textColor="#ffffff"
+        android:text="3). Pakaian Adat"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textColor="#ffffff"
+        android:text="3). Senjata Tradisional"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+          android:id="@+id/TextView03"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textColor="#ffffff"
+         android:text="4).Alat Musik"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+       android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:layout_marginTop="20dp"
+        android:text="Kembali"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:onClick="menuutama"
+        android:typeface="serif" />
+
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background ="@drawable/bunga2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffff00"
+        android:text="My Frofil" 
+        android:textAppearance="?android:attr/textAppearanceLarge" android:typeface="serif"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Nama 	: Masriah"
+        android:typeface="serif" 
+        android:textStyle="bold|italic"/> 
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#010505"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Kelas : 5 Sia 7"
+        android:typeface="serif" 
+        android:textStyle="bold|italic"/>
+
+        
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#010505"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Nirm : 2014020581"
+        android:typeface="serif" 
+        android:textStyle="bold|italic"/>
+
+        
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#010505"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="T.tgl lahir: T.Morawa,20-Jan-96" 
+        android:typeface="serif" 
+        android:textStyle="bold|italic"/>
+
+        
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#010505"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Alamat : Jl.galang kel.desa jaharun A" 
+        android:typeface="serif" 
+        android:textStyle="bold|italic"/>
+
+        
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#010505"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Email : rianany96@gmail.com" 
+        android:typeface="serif" 
+        android:textStyle="bold|italic"/>
+
+        
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#010505"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Hobby : Memasak"   
+        android:typeface="serif" 
+        android:textStyle="bold|italic"/>
+
+        
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#010505"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="No.hp : 0853-7084-8140"
+        android:typeface="serif" 
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:layout_marginTop="20dp"
+        android:text="Kembali"
+        android:textColor="#ffff00"
+        android:textStyle="bold"
+        android:onClick="menuutama"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nany" />
+   
+  </LinearLayout>

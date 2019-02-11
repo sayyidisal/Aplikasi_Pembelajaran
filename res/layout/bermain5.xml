@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bunga3"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="Ayo Mari Tes Pengetahuan Umum Soal Kebudayaan Indonesia ^_^"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+ <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soal 5"
+        android:textColor="#2fbb28" />
+    
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal" android:src="@drawable/soal5"/>
+   
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="Senjata Tradisional berasal dari manakah ini ?"
+        android:textColor="#2fbb28" />
+
+
+    <Button
+       android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#ff0000"
+        android:drawableLeft="@drawable/ja"
+        android:onClick="soalselesai"
+        android:text="Senjata Kujang dari (Jawa Barat)" />
+
+    <Button
+       android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+         android:textColor="#ff0000"
+        android:drawableLeft="@drawable/jb"
+        android:onClick="salah"
+        android:text="Senjata Badik dari (Jambi)" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#ff0000"
+        android:drawableLeft="@drawable/jc"
+        android:onClick="salah"
+        android:text="Senjata Bujak Beliung dari(Kalimantan)" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#ff0000"
+        android:drawableLeft="@drawable/jd"
+        android:onClick="salah"
+        android:text="Senjata Keris dari(Bali) " />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="#2fbb28"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/a"
+        android:onClick="kembali"
+        android:text="HOME" 
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+</LinearLayout>
